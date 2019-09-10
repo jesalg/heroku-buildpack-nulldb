@@ -2,8 +2,7 @@
 
 echo "exporting DB_ADAPTER='nulldb'"
 export DB_ADAPTER='nulldb'
-  
-if [ -z "$DATABSE_URL" ]; then
-  echo "exporting DATABASE_URL='nulldb://nohost'"
-  export DATABASE_URL='nulldb://nohost'
-fi
+
+echo "exporting DATABASE_URL='nulldb://nohost'"
+export DATABASE_URL='nulldb://nohost'
+
